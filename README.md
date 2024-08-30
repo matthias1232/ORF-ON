@@ -32,7 +32,7 @@ Before the first Run of the Script you need to edit the stream.py file and chang
 	######
 
 Obtaining the License URL with BrandGuid:
-Open ORF ON and Login with your User and while starting the stream, log the Network Traffic with google Chrome and search for "wide", you will see the URL for the License Requests:
+Open ORF ON with Google Chrome and Login with your User and while starting a Livestream, log the Network Traffic with google Chrome and search for "wide", you will see the URL for the License Requests:
 ![image](https://github.com/user-attachments/assets/8d564d7b-e264-4f28-b423-359ee14602ec)
 
 
