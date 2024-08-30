@@ -51,3 +51,7 @@ In TVHeadend add the Playlist
 	file:////var/www/html/orfon.m3u8
  
 ![image](https://github.com/user-attachments/assets/78fcc4d6-8555-4069-9e6d-62bac6b2a740)
+
+After saving everything you should be able to See all Services in TVHeadend:
+![image](https://github.com/user-attachments/assets/0ceea276-7cbc-4699-92dc-794bdd13f26f)
+
