@@ -125,7 +125,7 @@ for channel in channels:
     stream_sh.append(f'rm {playpath}/temp/{chno} -rf')
     stream_sh.append(f'mkdir {playpath}/temp/{chno} -p')
     stream_sh.append(f'export RE_LIVE_PIPE_OPTIONS="-loglevel fatal -c:a copy -c:v copy -preset ultrafast -tune zerolatency -mpegts_flags system_b -f mpegts pipe:2"')
-    stream_sh.append(f'{player} -mt --thread-count 5 --download-retry-count 2 --binary-merge --header "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" --header "Referer: https://on.orf.at/" --log-level off --no-date-info --no-log True{keystring} {mpdfile} --del-after-done true --mp4-real-time-decryption true --live-keep-segments false --live-real-time-merge true --live-pipe-mux true --auto-select --tmp-dir {playpath}/temp/{chno}/temp --save-dir {playpath}/temp/{chno} --save-name temp --live-take-count 3 2>&1 >/dev/null')
+    stream_sh.append(f'{player} -mt --thread-count 5 --download-retry-count 2 --binary-merge --header "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" --header "Referer: https://on.orf.at/" --log-level off --no-date-info --no-log True{keystring} {mpdfile} --del-after-done true --mp4-real-time-decryption true --live-keep-segments false --live-real-time-merge true --live-pipe-mux true --auto-select --tmp-dir {playpath}/temp/{chno}/temp --save-dir {playpath}/temp/{chno} --save-name temp --live-take-count 4 2>&1 >/dev/null')
     stream_sh.append(f'pid=$!')
     stream_sh.append(f'# If this script is killed, kill the process.')
     stream_sh.append(f'#trap "kill $pid 2> /dev/null" EXIT')
