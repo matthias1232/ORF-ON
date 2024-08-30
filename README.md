@@ -25,7 +25,7 @@ Before the first Run of the Script you need to edit the stream.py file and chang
 	#####config part of script#####
 	
 	device_wvd = "/opt/device.wvd" #(I cannot give any support how to obtain this wvd file")
-	playpath = "/var/www/html" #(The Location, where the playlist and stream files will be exported for Tvheadend, TVHeadend needs write Permissions to the temp Folder, in this example to /var/www/html/temp)
+	playpath = "/var/www/html" #(The Location, where the playlist and stream files will be exported for TVHeadend, User for TVHeadend Service needs write Permissions to the temp Folder, in this example to /var/www/html/temp)
 	player = "/opt/N_m3u8DL-RE_Beta_linux-arm64/N_m3u8DL-RE" #(x64 or arm64 CPU, also dont forget to run the Command "chmod +x" command for the player)
 	licence_url = "https://drm.ors.at/acquire-license/widevine?BrandGuid=XXXXXXXXXXXXX&userToken="
 	
