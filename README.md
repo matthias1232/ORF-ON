@@ -1,7 +1,7 @@
 # ORF ON Austria for Kodi/TVHeadend
  ORF ON for TVHeadend and any other Players
 
-This Tool creates a m3u8 dash MPD Playlist for ORF ON, working with TVHeadend.
+This Tool creates a m3u8 Playlist for ORF ON, working with TVHeadend, tvheadend will execute the script and get an pipe as return to play the Stream.
 You need a working device.wvd file for the Decryption, otherwhise you wont see any Stream!
 
 Note that ORF also uses GeoBlocking. If you request the file with an IP Address from outsite Austria or an VPN it could probably not work because of that reason.
