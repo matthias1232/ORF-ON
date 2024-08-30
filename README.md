@@ -36,6 +36,10 @@ Open ORF ON with Google Chrome and Login with your User and while starting a Liv
 ![image](https://github.com/user-attachments/assets/8d564d7b-e264-4f28-b423-359ee14602ec)
 
 
+After you configured all settings run the Script:
+
+	chmod +x /opt/stream.py
+	/opt/stream.py
 
 Create a Cronjob which executes this script every hour:
 
